@@ -1,4 +1,4 @@
-import 'package:currency_app/converting/convert_bloc.dart';
+import 'package:currency_app/ui/converting/convert_bloc.dart';
 import 'package:currency_app/core/models/currency_model.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
@@ -54,7 +54,7 @@ class ConvertScreen extends StatelessWidget {
                       ),
                       const SizedBox(width: 12),
                       SizedBox(
-                        width: 37,
+                        width: 42,
                         child: Text(
                           state.secondUzs ? currency.ccy : 'UZS',
                           textAlign: TextAlign.right,
@@ -90,7 +90,7 @@ class ConvertScreen extends StatelessWidget {
                       ),
                       const SizedBox(width: 12),
                       SizedBox(
-                        width: 37,
+                        width: 42,
                         child: Text(
                           state.secondUzs ? 'UZS' : currency.ccy,
                           textAlign: TextAlign.right,

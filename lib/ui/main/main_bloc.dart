@@ -1,8 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:currency_app/core/api/currency_api.dart';
+import 'package:currency_app/core/models/currency_model.dart';
 import 'package:meta/meta.dart';
 
-import '../core/models/currency_model.dart';
+// import '../core/models/currency_model.dart';
 
 part 'main_event.dart';
 

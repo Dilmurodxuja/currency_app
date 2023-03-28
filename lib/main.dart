@@ -1,5 +1,5 @@
 import 'package:currency_app/di.dart';
-import 'package:currency_app/main/main_screen.dart';
+import 'package:currency_app/ui/main/main_screen.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 

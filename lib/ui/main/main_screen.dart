@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:currency_app/converting/convert_screen.dart';
 import 'package:currency_app/core/api/currency_api.dart';
 import 'package:currency_app/di.dart';
-import 'package:currency_app/main/main_bloc.dart';
+import 'package:currency_app/ui/converting/convert_screen.dart';
+import 'package:currency_app/ui/main/main_bloc.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -197,8 +197,8 @@ class MainScreen extends StatelessWidget {
                                         Row(
                                           children: [
                                             Text(
-                                              "${data.withLocale(context.locale).ccyNm}",
-                                              style: TextStyle(
+                                              data.withLocale(context.locale).ccyNm,
+                                              style: const TextStyle(
                                                 fontSize: 16,
                                                 fontWeight: FontWeight.w600,
                                               ),
